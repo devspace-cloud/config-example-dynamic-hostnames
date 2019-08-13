@@ -1,0 +1,6 @@
+default:
+  config:
+    path: devspace.yaml
+  vars:
+  - name: DYNAMIC_HOSTNAME
+    question: Which hostname should this application run on?

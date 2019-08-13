@@ -1,0 +1,6 @@
+name: name-of-dynamic-ingress
+host: my-dynamic-host.tld
+path: /
+service:
+  name: some-k8s-service-name
+  port: 3000

@@ -1,0 +1,12 @@
+version: v1beta2
+deployments:
+- name: config-example-dynamic-hostnames
+  helm:
+    chart:
+      name: ./chart
+    values:
+      host: ${DYNAMIC_HOSTNAME}
+      service:
+        name: some-k8s-service-name
+        port: 3000
+
