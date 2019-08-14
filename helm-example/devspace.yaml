@@ -9,4 +9,3 @@ deployments:
       service:
         name: some-k8s-service-name
         port: 3000
-
