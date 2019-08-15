@@ -7,6 +7,7 @@ deployments:
       - port: 3000
     ingress:
       rules:
+      - host: my-static-host.tld
       - host: ${DYNAMIC_HOSTNAME}
       - host: some-other-hostname-${DYNAMIC_HOSTNAME}
         servicePort: 8000
